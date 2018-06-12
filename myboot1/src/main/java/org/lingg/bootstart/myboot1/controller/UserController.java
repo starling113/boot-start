@@ -1,6 +1,5 @@
 package org.lingg.bootstart.myboot1.controller;
 
-import org.apache.ibatis.session.SqlSessionFactory;
 import org.lingg.bootstart.myboot1.model.User;
 import org.lingg.bootstart.myboot1.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;

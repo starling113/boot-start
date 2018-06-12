@@ -1,7 +1,6 @@
 package org.lingg.bootstart.myboot1.config;
 
 import com.alibaba.druid.pool.DruidDataSource;
-import com.alibaba.druid.pool.ha.DataSourceCreator;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 

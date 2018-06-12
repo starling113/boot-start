@@ -15,11 +15,8 @@ import org.springframework.jdbc.datasource.DataSourceTransactionManager;
 import org.springframework.transaction.PlatformTransactionManager;
 import org.springframework.transaction.annotation.TransactionManagementConfigurer;
 
-import javax.sql.DataSource;
-import java.io.IOException;
 import java.util.Properties;
-
-import static java.lang.System.setProperty;
+import javax.sql.DataSource;
 
 
 @Configuration
