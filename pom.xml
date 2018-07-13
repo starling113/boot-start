@@ -48,6 +48,7 @@
     <modules>
         <module>myboot1</module>
 		<module>myboot2</module>
+		<module>myboot3</module>
     </modules>
 
 </project>
