@@ -16,7 +16,7 @@ public class LoginController {
         System.out.println(password);
         if("123456".equals(password)) {
 
-            return "dashboard";
+            return "redirect:/main.html";
         }else {
             map.put("msg", "密码错误");
             return "login";
