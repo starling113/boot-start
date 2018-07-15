@@ -1,5 +1,6 @@
 package org.lingg.bootstart.boot3.config;
 
+import org.lingg.bootstart.boot3.component.LoginIntercepter;
 import org.lingg.bootstart.boot3.component.MyLocaleResolver;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -39,6 +40,12 @@ public class MyWebMvcConfig implements WebMvcConfigurer {
                 //SpringBoot已经做好了静态资源映射
 //                registry.addInterceptor(new LoginHandlerInterceptor()).addPathPatterns("/**")
 //                        .excludePathPatterns("/login.html","/","/user/login");
+
+//                registry.addInterceptor(new LoginIntercepter())
+//                        .addPathPatterns("/**")
+//                        .excludePathPatterns("/","/index","/login.html")
+//                        .excludePathPatterns("/ex","/error")
+//                        .excludePathPatterns("/user/login");
             }
         };
         return adapter;
