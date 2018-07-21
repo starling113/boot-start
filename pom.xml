@@ -49,6 +49,9 @@
         <module>myboot1</module>
 		<module>myboot2</module>
 		<module>myboot3</module>
+		<module>ling-spring-boot-start-autoconfigurer</module>
+        <module>ling-spring-boot-start</module>
+        <module>ling-spring-boot-start-test</module>
     </modules>
 
 </project>
